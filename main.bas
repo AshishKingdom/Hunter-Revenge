@@ -15,7 +15,7 @@
 
 IF COMMAND$(1) = "--reset" THEN
 	INPUT "Are you sure that you want to reset the game? (Y/N) ", dummy$1
-	IF UCASE$(dummy$1) = "Y" THEN KILL "Save_Game/save.dat" : SYSTEM 
+	IF UCASE$(dummy$1) = "Y" THEN KILL "Save_Game/save.dat" : createConfig : SYSTEM 
 END IF
 
 'App icon
