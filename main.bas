@@ -19,7 +19,7 @@ IF COMMAND$(1) = "--reset" THEN
 END IF
 
 'App icon
-$EXEICON:'Hunter-Revenge/Images/game.ico'
+$EXEICON:'Hunter-Revenge-master/Images/game.ico'
 tmp_icon& = _LOADIMAGE("Images/cursor.png", 32)
 _CLEARCOLOR _RGB(255, 255, 255), tmp_icon&
 _ICON tmp_icon&
